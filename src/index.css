@@ -92,6 +92,7 @@ button {
   background-color: var(--primary-color);
   cursor: pointer;
   transition: background-color 0.25s;
+  color: #FAFAFA;
 }
 button:hover {
   background-color: var(--primary-color-hover);
@@ -99,4 +100,8 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  color: #FAFAFA;
 }
