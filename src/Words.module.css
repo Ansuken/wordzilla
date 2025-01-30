@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.welcomeText {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid var(--border-color);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.wordLength {
+  height: 60px;
+  width: 60px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  -moz-appearance: textfield;
+  background: transparent;
+}
+
+.wordLength::-webkit-outer-spin-button,
+.wordLength::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wordLength:focus {
+  border-color: var(--primary-color-hover);
+}
+
+
